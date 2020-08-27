@@ -90,3 +90,10 @@ Microsoft fonts:
 
 Fan Control:
 `sudo apt install macfanctld`
+
+## Links which helped me:
+
+https://help.ubuntu.com/community/MacBookAir6-2/Trusty
+
+https://askubuntu.com/questions/1073162/macbook-running-ubuntu-18-04-wont-go-to-sleep
+
