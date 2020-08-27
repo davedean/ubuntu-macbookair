@@ -18,7 +18,8 @@ Whilst trying to fix this I installed:
 tlp
 powertune
 powertop
-typecatcher
+
+[https://askubuntu.com/questions/1073162/macbook-running-ubuntu-18-04-wont-go-to-sleep]
 
 
 ## Other stuff I installed
