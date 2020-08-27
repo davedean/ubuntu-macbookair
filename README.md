@@ -72,12 +72,13 @@ From: https://askubuntu.com/questions/1073162/macbook-running-ubuntu-18-04-wont-
 
 ### Color Profile
 
-You can copy your icc color profile from OSX, in `/Library/ColorSync/Profiles/Displays.` to your Ubuntu install. 
+You can copy your icc color profile from OSX, in `/Library/ColorSync/Profiles/Displays` to your Ubuntu install. Your .icc file will be named something like `Color LCD-EC8836A8-9252C-B558-A128-05BC224C42B8.icc`
 
 To get KDE to load it, install `colord-kde`:
+
 `sudo apt install colord-kde`
 
-Then you can load 'Color Corrections', select your monitor, and use the 'Add Profile' button to load your .icc file.
+Then you can load the 'Color Corrections' panel in 'System Settings', select your monitor, and use the 'Add Profile' button to load your .icc file.
 
 ## Other stuff I installed
 
