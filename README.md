@@ -1,5 +1,5 @@
 # ubuntu-macbookair
-Notes about running Ubuntu on a Macbook Air 6,2 (2013)
+Notes about installing/running Ubuntu on a Macbook Air 6,2 (2013)
 
 This time around I'm running Kubuntu 20.04 but this is probably transferrable to regular Ubuntu (Focal Fossa).
 
