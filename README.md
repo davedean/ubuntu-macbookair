@@ -97,3 +97,5 @@ https://help.ubuntu.com/community/MacBookAir6-2/Trusty
 
 https://askubuntu.com/questions/1073162/macbook-running-ubuntu-18-04-wont-go-to-sleep
 
+https://davidxie.net/install-ubuntu-on-macbook-air
+
