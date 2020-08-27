@@ -96,3 +96,4 @@ https://askubuntu.com/questions/1073162/macbook-running-ubuntu-18-04-wont-go-to-
 
 https://davidxie.net/install-ubuntu-on-macbook-air
 
+https://int3ractive.com/2019/12/things-to-do-after-installing-ubuntu-mate.html
