@@ -72,6 +72,16 @@ Disabling only XHC1 is not recommended if you have this bug, since it may result
 #### Links:
 https://askubuntu.com/questions/1073162/macbook-running-ubuntu-18-04-wont-go-to-sleep
 
+### Color Profile:
+
+You can copy your icc color profile from OSX, in `/Library/ColorSync/Profiles/Displays.` to your Ubuntu install. 
+
+To get KDE to load it, install `colord-kde`:
+`sudo apt install colord-kde`
+
+Then you can load 'Color Corrections', select your monitor, and use the 'Add Profile' button to load your .icc file.
+
+
 
 ## Other stuff I installed
 
