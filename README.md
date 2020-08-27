@@ -34,10 +34,10 @@ Restart tlp if you want that to take effect without a reboot.
 
 ### suspend wakes up immediately
 
-In the end I think the only thing needed is this custom service, which I borrowed from the link below. 
+In the end I think the only thing needed is this custom service, which I borrowed from the link below. The only impact of this is that the power button is the only way to wake from suspect. 
 
 
-The link from BrainCore's answer above gives these instructions: Occasionally the Macboook Air may wake up immediately after suspend. To fix this:
+Occasionally the Macboook Air may wake up immediately after suspend. To fix this:
 
 `cat /proc/acpi/wakeup`
 
