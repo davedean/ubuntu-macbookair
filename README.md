@@ -4,6 +4,14 @@ Notes about installing/running Ubuntu on a Macbook Air 6,2 (2013)
 
 This time around I'm running Kubuntu 20.04 but this is probably transferrable to regular Ubuntu (Focal Fossa).
 
+## Use LVM and encryption
+
+A good guide, still pretty technical, it shouldn't be this hard in 2020.
+
+https://www.mikekasberg.com/blog/2020/04/08/dual-boot-ubuntu-and-windows-with-encryption.html
+
+I wound up shrinking my original APFS partition using Disk Utility in Mac OS, then booting KDE from USB, removing the fat partition that Mac OS created, then following the guide (skipping steps which I didn't need) .. and still got it wrong and had to redo bits.
+
 ## Not working out of the box
 
 ### Wireless
@@ -32,6 +40,16 @@ RUNTIME_PM_ALL=1
 ```
 
 Restart tlp if you want that to take effect without a reboot.
+
+Install slimbook for a GUI to manage power profiles.
+
+```bash
+sudo add-apt-repository ppa:slimbook/slimbook
+
+sudo apt update
+
+sudo apt install slimbookbattery
+```
 
 ### suspend wakes up immediately
 
