@@ -12,6 +12,27 @@ https://www.mikekasberg.com/blog/2020/04/08/dual-boot-ubuntu-and-windows-with-en
 
 I wound up shrinking my original APFS partition using Disk Utility in Mac OS, then booting KDE from USB, removing the fat partition that Mac OS created, then following the guide (skipping steps which I didn't need) .. and still got it wrong and had to redo bits.
 
+## Features
+
+| Feature                | Support status            |
+|------------------------|---------------------------|
+| LCD Panel              | works                     |
+| Suspend & Hibernate    | needs manual install.     |
+| Shut-down and Reboot   |  works                    |
+| Function Keys          | works                     |
+| Touchpad               | 	works                    |
+| Wireless               | needs manual install.     |
+| Bluetooth              | not tested                |
+| iSight                 | not tested                |
+| Sound                  | works                     |
+| Microphone             | not tested                |
+| External Monitor       | not tested                |
+| Thunderbolt            | not tested                |
+| SD card slot           | not tested                |
+| Fan Control            | works                     |
+| Sensors (temps & fans) | works                     |
+
+
 ## Not working out of the box
 
 ### Wireless
