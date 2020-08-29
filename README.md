@@ -22,7 +22,7 @@ I wound up shrinking my original APFS partition using Disk Utility in Mac OS, th
 | Function Keys          | works                     | Brightness, volume, keyboard brightness etc ..
 | Touchpad               | works                     |
 | Wireless               | needs manual install.     | Details below
-| Bluetooth              | not tested                | Glitched once or twice, restart service with `sudo service bluetooth restart`
+| Bluetooth              | works                     | Glitched once or twice, restart service with `sudo service bluetooth restart`
 | iSight                 | not tested                |
 | Sound                  | works                     |
 | Microphone             | works                     |
