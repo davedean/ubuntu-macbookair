@@ -117,6 +117,10 @@ To get KDE to load it, install `colord-kde`:
 
 Then you can load the 'Color Corrections' panel in 'System Settings', select your monitor, and use the 'Add Profile' button to load your .icc file.
 
+### Camera
+
+https://turanct.wordpress.com/tag/appleusbvideosupport/
+
 ## Other stuff I installed
 
 Microsoft fonts: 
@@ -134,3 +138,4 @@ https://askubuntu.com/questions/1073162/macbook-running-ubuntu-18-04-wont-go-to-
 https://davidxie.net/install-ubuntu-on-macbook-air
 
 https://int3ractive.com/2019/12/things-to-do-after-installing-ubuntu-mate.html
+
