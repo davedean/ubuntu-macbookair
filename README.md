@@ -14,24 +14,22 @@ I wound up shrinking my original APFS partition using Disk Utility in Mac OS, th
 
 ## Features
 
-| Feature                | Support status            |
-|------------------------|---------------------------|
-| LCD Panel              | works                     |
-| Suspend & Hibernate    | needs manual install.     |
-| Shut-down and Reboot   |  works                    |
-| Function Keys          | works                     |
-| Touchpad               | 	works                    |
-| Wireless               | needs manual install.     |
-| Bluetooth              | not tested                |
+| Feature                | Support status            | Notes 
+|------------------------|---------------------------|-----------
+| LCD Panel              | works                     | Can be improved with your color profile from OSX
+| Suspend & Hibernate    | needs manual install.     | Suspend immediately resumes, unless below tweaks made ..
+| Shut-down and Reboot   | works                     |
+| Function Keys          | works                     | Brightness, volume, keyboard brightness etc ..
+| Touchpad               | works                     |
+| Wireless               | needs manual install.     | Details below
+| Bluetooth              | not tested                | Glitched once or twice, restart service with `sudo service bluetooth restart`
 | iSight                 | not tested                |
 | Sound                  | works                     |
-| Microphone             | not tested                |
-| External Monitor       | not tested                |
-| Thunderbolt            | not tested                |
-| SD card slot           | not tested                |
-| Fan Control            | works                     |
+| Microphone             | works                     |
+| Thunderbolt            | works                     | Tested with a TB Ethernet adapter, YMMV?
+| SD card slot           | not working               | Only tested once, other sites suggest it should work OOTB
+| Fan Control            | works                     | Either tlp or macfanctld sorted this out 
 | Sensors (temps & fans) | works                     |
-
 
 ## Not working out of the box
 
